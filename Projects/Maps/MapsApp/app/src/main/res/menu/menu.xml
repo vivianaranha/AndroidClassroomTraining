@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.hellomaps.MainActivity" >
+
+    <item
+        android:id="@+id/mapTypeNone"
+        android:title="@string/map_type_none"/>
+    <item
+        android:id="@+id/mapTypeNormal"
+        android:title="@string/map_type_normal"/>
+    <item
+        android:id="@+id/mapTypeTerrain"
+        android:title="@string/map_type_terrain"/>
+    <item
+        android:id="@+id/mapTypeSatellite"
+        android:title="@string/map_type_satellite"/>
+    <item
+        android:id="@+id/mapTypeHybrid"
+        android:title="@string/map_type_hybrid"/>
+
+</menu>
